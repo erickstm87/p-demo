@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-//comment
 export default class Contact extends Component {
     render(){
         return(
