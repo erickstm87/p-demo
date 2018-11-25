@@ -7,9 +7,10 @@ export default class Portfolio extends Component {
                 <div className="container">
                     <header>
                         <h2>Here’s some stuff I made recently.</h2>
-                        <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+                        <p>I was working on some pretty exciting Advante Garde projects before my untimely death</p>
                     </header>
                     <div className="row">
+
                         <div className="col-4 col-6-medium col-12-small">
                             <article className="box style2">
                                 <a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
@@ -31,13 +32,14 @@ export default class Portfolio extends Component {
                                 <p>Ornare nulla proin odio consequat.</p>
                             </article>
                         </div>
-                        <div className="col-4 col-6-medium col-12-small">
+                        {/* <div className="col-4 col-6-medium col-12-small">
                             <article className="box style2">
                                 <a href="#" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
                                 <h3><a href="#">Tempus dolore</a></h3>
                                 <p>Ornare nulla proin odio consequat.</p>
                             </article>
-                        </div>
+                        </div> */}
+
                         <div className="col-4 col-6-medium col-12-small">
                             <article className="box style2">
                                 <a href="#" className="image featured"><img src="images/pic05.jpg" alt="" /></a>
