@@ -10,7 +10,7 @@ export default class Navigation extends Component {
                         <NavItem href="#top"> Top</NavItem>
                             <NavItem href="#work">Work</NavItem>
                             <NavItem a href="#portfolio">Portfolio</NavItem>
-                            <NavItem a href="#contact">Foundation</NavItem>
+                            <NavItem a href="#contact">Contact</NavItem>
                         </ul>
                     </nav>
             </Navbar>
