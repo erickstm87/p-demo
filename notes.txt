@@ -1,0 +1,28 @@
+
+Structure of the Talk
+
+1. Create a react app `npx create-react-app [application name]`
+2. Go to hmtl5up and look for a theme. 
+    1. Which theme is right for you?
+    2. too complex?
+    3. too simple?
+        1. Potential pitfalls when incorporating your new site?
+3. Pick a theme - for talk we'll use miniport
+4. Start moving over the assets and images from the html5up template into the public directory of the react application
+5. Clear out app.js and index.html 
+6. Move the contents from index.html in the html5up template over to react application app.js file 
+    1. Two gotchas, replace all instances of class with className, comments in html will cause errors! take them out.
+7. Once you see that you can render a site with all content in app.js, start divvying off into components 
+8. User will hopefully recognize that these divs can be rendered using json, start doing that
+9. Deploy to world wide web
+    1. I'll talk a little about buying a domain from google and how I've included notes that will show user how to link domain to heroku application 
+10. Start thinking about state and props, things on the site that would require user interaction (won't have time to demo) 
+11. If we have time I'll show how a new component is developed with git branch 
+
+
+Notes for user:
+* Incorporating HTML5up and React: https://www.youtube.com/watch?v=FuMwBBamF8s, https://www.youtube.com/watch?v=L_oe9A1Zk9Y
+* Mapping your custom domain to heroku: https://www.codecademy.com/articles/map-a-custom-domain
+* Another resource for mapping custom domain: https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97
+* Uploading images: https://devcenter.heroku.com/articles/s3
+* Html5up template I’ll use: https://html5up.net/miniport 
