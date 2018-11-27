@@ -1,5 +1,6 @@
 
-const works = [{
+const works = [
+    {
         "icon": "fa-film",
         "orientation": "left",
         "heading": "American Great",
