@@ -7,7 +7,7 @@ export default class Work extends Component {
                 <section className="box style1">
                     <span className={"icon featured " + element.icon}></span>
                     <h3>{element.heading}</h3>
-                    <p>{element.description}</p>
+                    <p>{element.description} {element.link && <a href={element.link}>link</a>}</p>
                 </section>
             </div>
         )
@@ -20,7 +20,6 @@ export default class Work extends Component {
                     </header>
                     <div className = "row aln-center">
                         {importantWorks}
-
                     </div>
                     <footer>
                         <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
