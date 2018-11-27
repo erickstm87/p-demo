@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
             <div className="col-4 col-6-medium col-12-small">
                 <article className="box style2">
                     <a href={element.link} className="image featured"><img src={element.pic} alt="" width='348px' height='243px'  /></a>
-                    <h3><a href="#">{element.title}</a></h3>
+                    <h3><a href={element.link}>{element.title}</a></h3>
                     <p>{element.description}</p>
                 </article>
             </div>
@@ -22,6 +22,7 @@ export default class Portfolio extends Component {
                     <div className="row">
                         {movied}
                     </div>
+
                     <footer>
                         <p>Just a small sampling of my crazy portfolio</p>
                         <a href="#contact" className="button large scrolly">Get in touch with me</a>

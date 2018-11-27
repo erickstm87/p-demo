@@ -1,36 +1,26 @@
 import React, {Component} from 'react';
-
+import works from '../store/work-data';
 export default class Work extends Component {
     render(){
+        const importantWorks = works.map((element) =>
+            <div className="col-4 col-6-medium col-12-small">
+                <section className="box style1">
+                    <span className={"icon featured " + element.icon}></span>
+                    <h3>{element.heading}</h3>
+                    <p>{element.description}</p>
+                </section>
+            </div>
+        )
         return(
             <article id="work" className="wrapper style2">
                 <div className="container">
                     <header>
-                        <h2>Here's all the stuff he did.</h2>
+                        <h2>Here's all the stuff I did.</h2>
                         <p>Very diverse set of interests </p>
                     </header>
-                    <div className="row aln-center">
-                        <div className="col-4 col-6-medium col-12-small">
-                            <section className="box style1">
-                                <span className="icon featured fa-film"></span>
-                                <h3>American Great</h3>
-                                <p>As America is undoubedly aware, I was one of the great American actors. Often referred to as my generation's Robert Redford</p>
-                            </section>
-                        </div>
-                        <div className="col-4 col-6-medium col-12-small">
-                            <section className="box style1">
-                                <span className="icon featured fa-star"></span>
-                                <h3>Universally Admired</h3>
-                                <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-                            </section>
-                        </div>
-                        <div className="col-4 col-6-medium col-12-small">
-                            <section className="box style1">
-                                <span className="icon featured fa-thumbs-o-up"></span>
-                                <h3>Feugiat posuere</h3>
-                                <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-                            </section>
-                        </div>
+                    <div className = "row aln-center">
+                        {importantWorks}
+
                     </div>
                     <footer>
                         <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
