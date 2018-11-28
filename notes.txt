@@ -26,3 +26,4 @@ Notes for user:
 * Another resource for mapping custom domain: https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97
 * Uploading images: https://devcenter.heroku.com/articles/s3
 * Html5up template I’ll use: https://html5up.net/miniport 
+* How to deploy production react app to heroku: https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08 <-- for this simply follow step 4!
