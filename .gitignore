@@ -9,6 +9,7 @@
 /coverage
 
 # production
+# comment
 /build/static/css/*.map
 /build/static/js/*.map
 
